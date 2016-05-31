@@ -41,6 +41,10 @@ body {
 	background: #E7E7E7;
 }
 
+li > p {
+	color: black;
+}
+
 /** BODY **/
 * {
 	box-sizing: border-box;
@@ -62,6 +66,8 @@ div > h1 {
 	color: #ffffe6;
 }
 
-
+.row h3 {
+	color: black;
+}
 
 
