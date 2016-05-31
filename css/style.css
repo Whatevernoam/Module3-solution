@@ -1,8 +1,7 @@
 body {
 	font-size: 16px;
-	color: #fff;
+	
 	background-color: #61122f;
-	font-family: 'Indie Flower', cursive;
 }
 .container-fluid {
 	background-color: #A2B964;
@@ -21,7 +20,7 @@ body {
 
 .navbar-brand h1{
 	border: 0px solid black;
-	font-size: 1.8em;
+	font-size: 2em;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -32,7 +31,7 @@ body {
 }
 
 #nav-list {
-	margin-top: 10px;
+	margin: 0px;
 }
 #nav-list a {
 	color: #247571;
@@ -41,8 +40,10 @@ body {
 	background: #E7E7E7;
 }
 
-li > p {
+li > a > p {
+	border: 0px solid black;
 	color: black;
+	font-size: 1.3em;
 }
 
 /** BODY **/
@@ -54,6 +55,7 @@ li > p {
 
 div > h1 {
 	color: #ffffe6;
+	font-size: 
 }
 
 .row {
@@ -62,7 +64,6 @@ div > h1 {
 	float: left;
 	margin:10px;
 	border-radius: 5px;
-	font-size:1.2em;
 	color: #ffffe6;
 }
 
@@ -70,6 +71,10 @@ div > h1 {
 	color: black;
 }
 
+.row p {
+	font-size: 1.1em;
+	padding: 10px;
+}
 /************** Desktop view ***********/
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
